@@ -1,0 +1,41 @@
+{
+  "resources":{
+  "includes":[{
+    "pattern":"\\QMETA-INF/services/java.awt.im.spi.InputMethodDescriptor\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/java.lang.System$LoggerFinder\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/kotlinx.coroutines.internal.MainDispatcherFactory\\E"
+  }, {
+    "pattern":"\\Qlibskiko-macos-arm64.dylib.sha256\\E"
+  }, {
+    "pattern":"java.desktop:\\Qcom/apple/laf/resources/aqua_ko.properties\\E"
+  }, {
+    "pattern":"java.desktop:\\Qcom/apple/laf/resources/aqua_ko_KR.properties\\E"
+  }, {
+    "pattern":"java.desktop:\\Qcom/sun/swing/internal/plaf/basic/resources/basic_ko.properties\\E"
+  }, {
+    "pattern":"java.desktop:\\Qcom/sun/swing/internal/plaf/basic/resources/basic_ko_KR.properties\\E"
+  }, {
+    "pattern":"java.desktop:\\Qsun/awt/resources/awt_ko.properties\\E"
+  }, {
+    "pattern":"java.desktop:\\Qsun/awt/resources/awt_ko_KR.properties\\E"
+  }, {
+    "pattern":"java.desktop:\\Qsun/awt/resources/awtosx_ko.properties\\E"
+  }, {
+    "pattern":"java.desktop:\\Qsun/awt/resources/awtosx_ko_KR.properties\\E"
+  }]},
+  "bundles":[{
+    "name":"com.apple.laf.resources.aqua",
+    "locales":["ko-KR"]
+  }, {
+    "name":"com.sun.swing.internal.plaf.basic.resources.basic",
+    "locales":["ko-KR"]
+  }, {
+    "name":"sun.awt.resources.awt",
+    "locales":["ko-KR"]
+  }, {
+    "name":"sun.awt.resources.awtosx",
+    "locales":["ko-KR"]
+  }]
+}
