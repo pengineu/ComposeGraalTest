@@ -36,11 +36,42 @@ compose.desktop {
     }
 }
 
+
 tasks.shadowJar {
     manifest {
         attributes(mapOf("Main-Class" to "MainKt"))
     }
 }
+
+//tasks.register("nativeDist") {
+//    dependsOn("nativeCompile")
+//
+//    doLast {
+//        // 실행 파일과 DLL 복사
+//        copy {
+//            mkdir("build/dist")
+//            from("build/native/nativeCompile")
+//            into("build/dist")
+//            include("*.exe")
+//            include("*.dll")
+//        }
+//
+//        // 폰트 설정 파일 복사
+//        val javaHome = System.getProperty("java.home")
+//        println(javaHome)
+//
+//        copy {
+//            mkdir("build/dist/lib")
+//            from("$javaHome/lib")
+//            into("build/dist/lib")
+//            include("fontconfig.bfc")
+//            include("fontconfig.properties.src")
+//            include("psfont.properties.ja")
+//            include("psfontj2d.properties")
+//        }
+//    }
+//}
+
 
 //tasks {
 //    register<Jar>("uberJar") {
